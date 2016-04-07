@@ -33,12 +33,12 @@ body {
 
 .nav li a {
     width: 150px;
-	box-sizing:border-box;
-	color:#060;
-	font-family:helvetica;		/*Replace with google web font*/
-	text-transform:uppercase;
-	text-decoration:none;
-	transition: all .2s linear;
+    box-sizing:border-box;
+    color:#060;
+    font-family:helvetica;		/*Replace with google web font*/
+    text-transform:uppercase;
+    text-decoration:none;
+    transition: all .2s linear;
 }
 
 .nav li a {
@@ -75,18 +75,33 @@ body {
 	height: 50px;
 }
 
+#social-media {
+    width: 17.5%;
+    float: left;
+}
+
 #vlogo {
-	width: 125px;
+    width: 10%;
+    float: left;
+    background-color: white;
+}
+
+#legal-footer {
+    width: 17.5%;
+    float: left;
+    text-align: right;
 }
 
 #center-footer {
-	margin: auto:
-	width: 1025;
+    width: 65%;
+    float: left;    
 }
 
-#footer ul {
-	width: 900px;
+#center-footer ul {
+    width: 90%;
+    margin: 2.25% 0px 2.25% 0px;
 }
+
 .clear {
 	clear:both;
 }
