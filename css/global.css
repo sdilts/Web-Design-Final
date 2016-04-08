@@ -29,10 +29,12 @@ body {
 	display: inline-block;
 	float: left;
 	padding:0px;
+	background-color: #aaa;
+	text-align: center
 }
 
 .nav li a {
-    width: 150px;
+    width: 162px;
     box-sizing:border-box;
     color:#060;
     font-family:helvetica;		/*Replace with google web font*/
@@ -61,7 +63,7 @@ body {
 }
 
 .nav li:last-child a:not(.active) {
-	border-right: none;
+    
 }
 .nav li:last-child a.active {
 	border-right: none;
@@ -72,7 +74,7 @@ body {
 	margin:auto;
 	color:#444;
 	background-color: #7a7;
-	height: 50px;
+	height: 110px;
 }
 
 #social-media {
@@ -84,6 +86,7 @@ body {
     width: 10%;
     float: left;
     background-color: white;
+    min-width: 70px;
 }
 
 #legal-footer {
@@ -100,6 +103,10 @@ body {
 #center-footer ul {
     width: 90%;
     margin: 2.25% 0px 2.25% 0px;
+}
+
+#center-footer li:last-child a {
+	border: none;
 }
 
 .clear {
