@@ -13,3 +13,7 @@
 *.html~
 *.css#
 *.css~
+
+# OS files #
+############
+.DS_Store
