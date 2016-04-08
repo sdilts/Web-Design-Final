@@ -13,10 +13,6 @@ body {
 
 }
 
-.nav {
-	
-}
-
 .nav ul {
 	padding: 0;
 	margin: 0;
@@ -31,21 +27,29 @@ body {
 	padding:0px;
 }
 
+/*Common to both navs*/
 .nav li a {
-    width: 150px;
-	box-sizing:border-box;
 	color:#060;
 	font-family:helvetica;		/*Replace with google web font*/
 	text-transform:uppercase;
 	text-decoration:none;
 	transition: all .2s linear;
+	border-right: 3px solid #060;
+	display:block;
 }
 
-.nav li a {
-	border-right: 1px solid #060;
-	display:block;
+/*Unique to top nav*/
+#header.nav li a {
+    width: 150px;
 	font-size: 16px;
-	padding:15px 10%;
+	padding:15px 20px 15px 5px;
+}
+
+/*Unique to footer nav*/
+#bottom_nav.nav li a {
+    width: 100px;
+	font-size: 12px;
+	padding:5px 10px 5px 5px;
 }
 
 .nav li a.active, .nav li:last-child a.active {
@@ -74,19 +78,43 @@ body {
 	background-color: #7a7;
 	height: 50px;
 }
+#footer.nav li{
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+#hlogo {
+	height: 60px;
+}
+
+#social-media {
+    width: 17.5%;
+    float: left;
+}
 
 #vlogo {
-	width: 125px;
+    width: 10%;
+    float: left;
+    background-color: white;
+}
+
+#legal-footer {
+    width: 17.5%;
+    float: left;
+    text-align: right;
 }
 
 #center-footer {
-	margin: auto:
-	width: 1025;
+    width: 65%;
+    float: left;    
 }
 
-#footer ul {
-	width: 900px;
+#center-footer ul {
+    width: 90%;
+    margin: 2.25% 0px 2.25% 0px;
 }
+
 .clear {
 	clear:both;
 }
