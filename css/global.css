@@ -31,7 +31,6 @@ body {
 
 /*Common to both navs*/
 .nav li a {
-<<<<<<< HEAD
 	color:#060;
 	font-family:helvetica;		/*Replace with google web font*/
 	text-transform:uppercase;
@@ -50,9 +49,9 @@ body {
 
 /*Unique to footer nav*/
 #bottom_nav.nav li a {
-    width: 100px;
-	font-size: 12px;
-	padding:5px 10px 5px 5px;
+    width: 90%;
+    font-size: 12px;
+    padding:5px 10px 5px 5px;
 }
 
 .nav li a.active, .nav li:last-child a.active {
