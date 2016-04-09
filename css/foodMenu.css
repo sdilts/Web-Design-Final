@@ -1,0 +1,35 @@
+/*css for hero image*/
+img#hero{
+  width: 100%;
+  height: 500px;
+}
+div#heroText{
+  background-color: #5a5;
+  width: 25%;
+  height: 120px;
+  position: absolute;
+  left: 72%; /*relative to page left side of div*/
+  top: 450px; /*relative to entire page length from top*/
+  padding: 10px;
+}
+
+/*css for food menu list*/
+div.foodCategory{
+  width: 30%;
+  float: left;
+  margin: 1.5%;
+  border-right: solid 2px;
+  border-color: #464;
+}
+div.foodCategory:last-child{
+  border-right: none;
+}
+div.Item h3{
+  float: right;
+  color: #b00;
+  padding-right: 10px; 
+}
+div.Item h2{
+  color: #0a0;
+  padding: 0;
+}
