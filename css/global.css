@@ -17,7 +17,7 @@ body {
 	padding: 0;
 	margin: 0;
 	width: 100%;
-	height: 48px;
+	height: 45px;
 	background-color: #aaa;
 }
 
@@ -42,7 +42,8 @@ body {
 
 /*Unique to top nav*/
 #header.nav li a {
-    width: 150px;
+  width: 150px;
+	height: 15px; /*maches with a ".nav ul" height of 45px*/
 	font-size: 16px;
 	padding:15px 20px 15px 5px;
 }
@@ -55,19 +56,15 @@ body {
 }
 
 .nav li a.active, .nav li:last-child a.active {
-	background-color: #000;
+	background-color: #222;
 	color:#060;
 	text-shadow: 2px 1px 20px rgba(250, 250, 250, .50);
 }
 
 .nav li a:hover {
-	background-color:#000;
+	background-color:#222;
 	color:#060;
 	text-shadow: 2px 1px 20px rgba(250, 250, 250, .50);
-}
-
-.nav li:last-child a:not(.active) {
-    
 }
 
 .nav li:last-child a.active {
@@ -88,16 +85,6 @@ body {
     transform: translateY(-50%);
 }
 
-#social-media {
-    width: 17.5%;
-    float: left;
-}
-#footer.nav li{
-	display: inline;
-	padding: 0;
-	margin: 0;
-}
-
 #hlogo {
 	height: 60px;
 }
@@ -110,7 +97,7 @@ body {
 #vlogo {
     width: 10%;
     float: left;
-    background-color: white;
+    background-color: #fff;
 	min-width: 88px;
 }
 
@@ -122,28 +109,26 @@ body {
 
 #center-footer {
 	float: left;
-    padding: 0px;
-    margin:0px;
-    width: 65%;
+  padding: 0px;
+  margin:0px;
+  width: 65%;
 }
 
 #center-footer li {
-    min-width: 145px;
-    width: 14.8%;
-}
-
-#center-footer li a {
-    width: 100%;
+  width: 14.8%;
+	box-sizing: border-box;
+	border-right: solid 2px #373
 }
 
 #center-footer ul {
-    background-color: inherit;
-    padding-top: 31px;
-    margin: 0;
+  background-color: inherit;
+  padding-top: 31px;
+  margin: 0;
 }
 
-#center-footer li:last-child a {
-    border: none;
+/*remove border on last item*/
+#center-footer li a:last-child, #center-footer li:last-child {
+  border-style: none;
 }
 
 .clear {
