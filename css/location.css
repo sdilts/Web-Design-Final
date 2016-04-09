@@ -1,0 +1,44 @@
+/*css for hero image*/
+img#hero{
+  width: 100%;
+  height: 500px;
+}
+div#heroText{
+  background-color: #5a5;
+  width: 25%;
+  height: 120px;
+  position: absolute;
+  left: 72%; /*relative to page left side of div*/
+  top: 450px; /*relative to entire page length from top*/
+  padding: 10px;
+}
+
+/*css for featured location image bar*/
+div.main h1{
+  text-align: center;
+}
+div#featured{
+  margin: auto;
+  background-color: #5a5;
+}
+div#featured img{
+  padding: 0 25%; /*Temporary the image is not centered*/
+  width: 50%;
+  height: 400px;
+}
+
+/*css for supporting images*/
+div.subImage{
+  width: 36%;
+  display: inline-block;
+  padding: 0 5%;
+}
+div.subImage h2{
+  text-align: center;
+  border-bottom: solid 2px;
+  border-color: #4a4;
+  color: #4a4;
+}
+div.subImage img{
+  width: 100%
+}
