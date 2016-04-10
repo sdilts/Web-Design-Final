@@ -4,7 +4,7 @@ img#hero{
   height: 500px;
 }
 div#heroText{
-  background-color: #546045; /*Light Green*/
+  background-color: #333; /*Black*/
   width: 25%;
   height: 120px;
   position: absolute;
@@ -22,7 +22,7 @@ div.foodCategory{
   border-color: #333; /*Black*/
 }
 div.foodCategory h1, div.foodCategory p{
-  color: #374c1d; /*Green*/
+  color: #851221; /*Red*/
 }
 div.foodCategory:last-child{
   border-right: none;
@@ -38,5 +38,5 @@ div.Item h2{
 }
 
 #wrapper{ /*Override Global*/
-  background-color: #ccc;
+  background-color: #ccc; /*Gray*/
 }

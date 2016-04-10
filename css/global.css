@@ -25,20 +25,20 @@ div#header{
 	margin: 0;
 	width: 100%;
 	height: 45px;
-	background-color: #ddd; /*White*/
+	background-color: #ccc; /*Gray*/
 }
 
 .nav li {
 	display: inline-block;
 	float: left;
 	padding:0px;
-	background-color: #ddd; /*White*/
+	background-color: #ccc; /*Gray*/
 	text-align: center
 }
 
 /*Common to both navs*/
 .nav li a {
-	color:#374c1d; /*Green*/
+	color:#333; /*Black*/
 	font-family:helvetica;		/*Replace with google web font*/
 	text-transform:uppercase;
 	text-decoration:none;
@@ -81,7 +81,7 @@ div#header{
 #footer {
     padding: 5px 15px;
     margin:auto;
-    background-color: #546045; /*Light Green*/
+    background-color: #ac9582; /*Light Tan*/
     height: 110px;
 }
 
@@ -89,7 +89,7 @@ div#header{
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-	color: #caa483; /*Tan*/
+	color: #333; /*Black*/
 }
 
 #hlogo {
@@ -102,9 +102,9 @@ div#header{
 }
 
 #vlogo {
-    width: 10%;
-    float: left;
-    background-color: #833d46; /*Light Red*/
+  width: 10%;
+  float: left;
+  background-color: #833d46; /*Light Red*/
 	min-width: 88px;
 }
 
