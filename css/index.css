@@ -8,7 +8,7 @@ div#heroText{
   width: 25%;
   height: 120px;
   position: absolute;
-  left: 72%; /*relative to page left side of div*/
+  left: 71.6%; /*relative to page left side of div*/
   top: 450px; /*relative to entire page length from top*/
   padding: 10px;
 }
@@ -24,7 +24,7 @@ div#featured img{
 }
 div#featured img, div#featured div{
   display: inline-block; 
-  padding: 10px 50px;
+  padding: 10px 2% 10px 50px;
 }
 div#featured div{
   width: 50%;
@@ -32,8 +32,9 @@ div#featured div{
 
 /*css for event boxes*/
 div.event{
-  width: 39%; /*not quite centered but 40% will make them wrape*/
-  margin: 2% 5%;
+  width: 45.8%; /*Centered with margin*/
+  margin: 1% 2%;
+  padding: 0;
   display: inline-block;
 }
 div.event img{
