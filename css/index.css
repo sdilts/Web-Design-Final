@@ -4,7 +4,7 @@ img#hero{
   height: 500px;
 }
 div#heroText{
-  background-color: #5a5;
+  background-color: #546045; /*Light Green*/
   width: 25%;
   height: 120px;
   position: absolute;
@@ -15,7 +15,7 @@ div#heroText{
 
 /*css for featured*/
 div#featured {
-  background-color: #4a4;
+  background-color: #546045; /*Light Green*/
   height: 275px
 }
 div#featured img{
@@ -38,6 +38,11 @@ div.event{
 }
 div.event img{
   width: 100%;
+}
+div.event p, div.event h2{
+  margin: 0;
+  padding: 10px 5px;
+  background-color: #546045; /*Light Green*/
 }
 
 

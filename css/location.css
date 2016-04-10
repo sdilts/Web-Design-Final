@@ -4,7 +4,7 @@ img#hero{
   height: 500px;
 }
 div#heroText{
-  background-color: #5a5;
+  background-color: #546045; /*Light Green*/
   width: 25%;
   height: 120px;
   position: absolute;
@@ -19,7 +19,7 @@ div.main h1{
 }
 div#featured{
   margin: auto;
-  background-color: #5a5;
+  background-color: #546045; /*Light Green*/
 }
 div#featured img{
   padding: 0 25%; /*Temporary the image is not centered*/
@@ -36,8 +36,14 @@ div.subImage{
 div.subImage h2{
   text-align: center;
   border-bottom: solid 2px;
-  border-color: #4a4;
-  color: #4a4;
+  border-color: #caa483; /*Tan*/
+  color: #caa483; /*Tan*/
+}
+div.subImage p{
+  padding: 10px 5px;
+  margin: 0 0 15px 0;
+  background-color: #546045; /*Light Green*/
+  color: #caa483; /*Tan*/
 }
 div.subImage img{
   width: 100%

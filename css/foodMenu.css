@@ -4,7 +4,7 @@ img#hero{
   height: 500px;
 }
 div#heroText{
-  background-color: #5a5;
+  background-color: #546045; /*Light Green*/
   width: 25%;
   height: 120px;
   position: absolute;
@@ -19,17 +19,24 @@ div.foodCategory{
   float: left;
   margin: 1.5%;
   border-right: solid 2px;
-  border-color: #464;
+  border-color: #333; /*Black*/
+}
+div.foodCategory h1, div.foodCategory p{
+  color: #374c1d; /*Green*/
 }
 div.foodCategory:last-child{
   border-right: none;
 }
 div.Item h3{
   float: right;
-  color: #b00;
+  color: #833d46; /*Light Red*/
   padding-right: 10px; 
 }
 div.Item h2{
-  color: #0a0;
+  color: #caa483; /*Tan*/
   padding: 0;
+}
+
+#wrapper{ /*Override Global*/
+  background-color: #ccc;
 }
