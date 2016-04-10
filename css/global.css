@@ -25,20 +25,20 @@ div#header{
 	margin: 0;
 	width: 100%;
 	height: 45px;
-	background-color: #ccc; /*Gray*/
+	background-color: #444; /*Dark Gray*/
 }
 
 .nav li {
 	display: inline-block;
 	float: left;
 	padding:0px;
-	background-color: #ccc; /*Gray*/
+	background-color: #444; /*Dark Gray*/
 	text-align: center
 }
 
 /*Common to both navs*/
 .nav li a {
-	color:#333; /*Black*/
+	color:#ccc; /*Gray*/
 	font-family:helvetica;		/*Replace with google web font*/
 	text-transform:uppercase;
 	text-decoration:none;
