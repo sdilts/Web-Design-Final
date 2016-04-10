@@ -22,21 +22,17 @@ div.foodCategory{
   border-color: #333; /*Black*/
 }
 div.foodCategory h1, div.foodCategory p{
-  color: #851221; /*Red*/
+  color: #caa483; /*Tan*/
 }
 div.foodCategory:last-child{
   border-right: none;
 }
 div.Item h3{
   float: right;
-  color: #833d46; /*Light Red*/
+  color: #caa483; /*Tan*/
   padding-right: 10px; 
 }
 div.Item h2{
-  color: #caa483; /*Tan*/
+  color: #333; /*Black*/
   padding: 0;
-}
-
-#wrapper{ /*Override Global*/
-  background-color: #ccc; /*Gray*/
 }
