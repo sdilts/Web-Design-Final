@@ -11,7 +11,7 @@ div#heroText{
   height: 120px;
   position: absolute;
   left: 71.6%; /*relative to page left side of div*/
-  top: 450px; /*relative to entire page length from top*/
+  top: 420px; /*relative to entire page length from top*/
   padding: 10px;
 }
 
@@ -34,7 +34,7 @@ div#featured img{
   background-color: #833d46;
   margin: 0 auto;
   width: auto;
-  min-height: 400px;
+  min-height: 420px;
   
 }
 
