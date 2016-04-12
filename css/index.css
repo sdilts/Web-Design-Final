@@ -7,7 +7,7 @@ img#hero{
 div#featured {
   background-color: #333; /*Black*/
   height: 275px;
-  width: 70%;
+  width: 94.5%;
   margin: 10px auto;
   padding: 10px;
 }
@@ -17,7 +17,7 @@ div#featured img{
 }
 div#featured img, div#featured div{
   display: inline-block; 
-  padding: 10px 2% 10px 50px;
+  padding: 10px 20px;
 }
 div#featured div{
   width: 50%;
