@@ -142,6 +142,20 @@ div#header{
   padding-top: 31px;
   margin: 0;
 }
+/*css for hero image*/
+img#hero{
+  width: 100%;
+}
+div#heroText{
+  background-color: #333; /*Black*/
+  width: 25%;
+  height: 120px;
+  position: relative;
+  margin-bottom: -140px; /*removes extra space below textbox*/
+  left: 71.6%; /*relative to page left side of div*/
+  top: -145px; /*relative to inital position*/
+  padding: 10px;
+}
 
 /*remove border on last item*/
 #center-footer li a:last-child, #center-footer li:last-child {
