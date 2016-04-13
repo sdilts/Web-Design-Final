@@ -19,10 +19,10 @@ div.foodCategory:last-child{
 }
 div.Item h3{
   float: right;
-  color: #caa483; /*Tan*/
+  color: #ccc; /*Gray*/
   padding-right: 10px; 
 }
 div.Item h2{
-  color: #333; /*Black*/
+  color: #ccc; /*Gray*/
   padding: 0;
 }
