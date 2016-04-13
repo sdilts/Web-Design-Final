@@ -4,19 +4,15 @@ div.main h1{
 }
 div#featured{
   margin: auto;
-  height: auto;
   background-color: #333; /*Black*/
   width: 94%;
   display: flex;
 }
 div#featured img{
   display: block;
-   padding: 0 6%; /*Temporary the image is not centered*/
-   padding-bottom: 0px;
-   margin-bottom: 0px;
-  background-color: #833d46;
+  padding: 0 4%; /*Temporary the image is not centered*/
+  background-color: #833d46; /*Light Red*/
   margin: 0 auto;
-  width: auto;
   min-height: 420px;
   
 }
