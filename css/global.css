@@ -62,7 +62,6 @@ div#header{
 
 /*Unique to footer nav*/
 #bottom_nav.nav li a {
-    width: 90%;
     font-size: 12px;
     padding:5px 10px 5px 5px;
 }
