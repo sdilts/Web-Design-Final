@@ -5,7 +5,7 @@ div.foodCategory{
   margin: 1.5%;
 }
 
-div.itemCategory {
+div.Item {
   border-left: solid 2px;
   border-color: #444; /*light grey*/
   margin-left: 9%;
