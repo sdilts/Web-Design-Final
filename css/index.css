@@ -3,7 +3,7 @@ div#featured {
   background-color: #333; /*Black*/
   height: 275px;
   width: 94.5%;
-  margin: 10px auto;
+  margin: 20px auto 10px auto;
   padding: 10px;
 }
 div#featured img{
