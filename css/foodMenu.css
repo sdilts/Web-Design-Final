@@ -5,6 +5,23 @@ div.foodCategory{
   margin: 1.5%;
 }
 
+#menuNav li {
+  width: 25%;
+  box-sizing: border-box;
+  /* border-right: solid 2px #caa483; /\*Tan*\/ */
+}
+
+#lastElement a {
+    border: none;
+}
+
+#menuNav ul {
+  background-color: inherit;
+  padding-top: 31px;
+  margin: 0;
+  width: 40%;
+}
+
 div.Item {
   border-left: solid 2px;
   border-color: #444; /*light grey*/
