@@ -2,10 +2,14 @@
 <html>
 
   <head>
+    <meta charset="UTF-8"> 
+    
     <title>Carboidrati Italiano: Menu Items</title>
     <link rel="stylesheet" type="text/css" href="../css/global.css" />
-    <link rel="stylesheet" type="text/css" href="../css/foodMenu.css" />
-    <link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative:400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="../css/foodMenu.css"
+	  />
+    <link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative:400'
+	  rel='stylesheet' type='text/css'>
 
   </head>
   
@@ -13,144 +17,284 @@
     <div id="wrapper">
       
       <div class="nav" id="header">
-	  
-	  <img id="hlogo" src="../images/carbHorz01.svg" alt="carboidrati italiano">
-	  
-		  <ul>
-			<li><a href="../index.html">Home</a></li>
-	      	<li><a class="active" href="foodMenu.html">Menu Items</a></li>
-	      	<li><a href="location.html">Location</a></li>
-	      	<li><a href="#">Awards</a></li>
-	      	<li><a href="#">Reservations</a></li>
-	      	<li><a href="#">Delivery</a></li>
-		  </ul>
-	  
+	
+	<a href="../index.html"><img id="hlogo"
+				     src="../images/carbHorz01.svg" alt="carboidrati italiano"></a>
+	
+	<ul>
+	  <li><a href="../index.html">Home</a></li>
+	  <li><a class="active" href="foodMenu.html">Menu
+	      Items</a></li>
+	  <li><a href="location.html">Location</a></li>
+	  <li><a href="#">Awards</a></li>
+	  <li><a href="#">Reservations</a></li>
+	  <li><a href="#">Delivery</a></li>
+	</ul>
+	
       </div>
       
       <div class="clear">
       </div>
       
-      <div class="main">
-      
-		<img id="hero" src="../images/italianFood01.jpg" alt="Hero Image">
-		<div id="heroText">
-			<h2>Hero Image</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tincidunt velit.
-			</p>
-		</div>
-		
-		<div class="foodCategory">
-			<h1>Lunch</h1>
-			<div class="Item">
-				<h2>Item</h2>
-				<h3>10.00</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tincidunt velit.
-				</p>
-			</div>
-			<div class="Item">
-				<h2>Item</h2>
-				<h3>9.00</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tincidunt velit.
-				</p>
-			</div>
-			<div class="Item">
-				<h2>Item</h2>
-				<h3>8.66</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tincidunt velit.
-				</p>
-			</div>
-		</div>
-		
-		<div class="foodCategory">
-			<h1>Dinner</h1>
-			<div class="Item">
-				<h2>Item</h2>
-				<h3>6.93</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tincidunt velit.
-				</p>
-			</div>
-			<div class="Item">
-				<h2>Item</h2>
-				<h3>3.14</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tincidunt velit.
-				</p>
-			</div>
-			<div class="Item">
-				<h2>Item</h2>
-				<h3>2.71</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tincidunt velit.
-				</p>
-			</div>
-		</div>
-		
-		<div class="foodCategory">
-			<h1>Dessert</h1>
-			<div class="Item">
-				<h2>Item</h2>
-				<h3>14.14</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tincidunt velit.
-				</p>
-			</div>
-			<div class="Item">
-				<h2>Item</h2>
-				<h3>17.32</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tincidunt velit.
-				</p>
-			</div>
-			<div class="Item">
-				<h2>Item</h2>
-				<h3>22.36</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac tincidunt velit.
-				</p>
-			</div>
-		</div>
-		
+      <div class="main"> 
+	<img id="hero" src="../images/italianFood01_crop.jpg"
+	     alt="Hero Image">
+	<div id="heroText">
+	  <h2>Hero Image</h2>
+	  <p>
+	    Lorem ipsum dolor sit amet, consectetur adipiscing
+	    elit. Vestibulum ac tincidunt velit.
+	  </p>
+	</div>
+	<div id="aboutPage">
+	  <p>Bacon ipsum dolor amet brisket cow spare ribs,
+	    pastrami filet mignon pancetta meatloaf beef
+	    drumstick salami picanha chuck bresaola. Salami
+	    ground round shank, pancetta short ribs tail boudin
+	    venison turducken porchetta meatloaf shoulder cow
+	    bacon.
+	  </p>
+	  <div id="menuNav" class="nav" alt="Navigation for menu">
+	    <ul>
+	      <li><a href="#lunch">Lunch</a></li>
+	      <li><a href="#dinner">Dinner</a></li>
+	      <li><a href="#dessert">Dessert</a></li>
+	      <li id="lastElement"><a href="#appetizers">Appetizers</a></li>
+	    </ul>
+	  </div>
+	</div>
+	<div id="menu">
+	  <div class="foodCategory" id="lunch">
+	    <h1>Lunch</h1>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>10.00</h3>
+	      <p>
+		Lorem ipsum dolor sit
+		amet, consectetur
+		adipiscing
+		elit. Vestibulum ac
+		tincidunt velit.
+	      </p>
+	    </div>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>9.00</h3>
+	      <p>
+		Lorem ipsum dolor sit
+		amet, consectetur
+		adipiscing
+		elit. Vestibulum ac
+		tincidunt velit.
+	      </p>
+	    </div>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>8.66</h3>
+	      <p>
+		Lorem ipsum dolor
+		sit amet,
+		consectetur
+		adipiscing
+		elit. Vestibulum
+		ac tincidunt
+		velit.
+	      </p>
+	    </div>
+	  </div>
+	  
+	  <div class="foodCategory" id="dinner">
+	    <h1>Dinner</h1>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>6.93</h3>
+	      <p>
+		Lorem ipsum dolor sit
+		amet, consectetur
+		adipiscing
+		elit. Vestibulum ac
+		tincidunt velit.
+	      </p>
+	    </div>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>3.14</h3>
+	      <p>
+		Lorem ipsum dolor
+		sit amet,
+		consectetur
+		adipiscing
+		elit. Vestibulum ac
+		tincidunt velit.
+	      </p>
+	    </div>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>2.71</h3>
+	      <p>
+		Lorem ipsum
+		dolor sit amet,
+		consectetur
+		adipiscing
+		elit. Vestibulum
+		ac tincidunt
+		velit.
+	      </p>
+	    </div>
+	  </div>
+	  
+	  <div class="foodCategory" id="dessert">
+	    <h1>Dessert</h1>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>14.14</h3>
+	      <p>
+		Lorem ipsum dolor sit
+		amet, consectetur
+		adipiscing
+		elit. Vestibulum ac
+		tincidunt velit.
+	      </p>
+	    </div>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>17.32</h3>
+	      <p>
+		Lorem ipsum dolor
+		sit amet,
+		consectetur
+		adipiscing
+		elit. Vestibulum
+		ac tincidunt
+		velit.
+	      </p>
+	    </div>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>22.36</h3>
+	      <p>
+		Lorem ipsum
+		dolor sit
+		amet,
+		consectetur
+		adipiscing
+		elit. Vestibulum
+		ac tincidunt
+		velit.
+	      </p>
+	    </div>
+	  </div>
+	  
+	  <div class="foodCategory" id="appetizers">
+	    <h1>Appetizers</h1>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>7.07</h3>
+	      <p>
+		Lorem ipsum dolor
+		sit amet,
+		consectetur
+		adipiscing
+		elit. Vestibulum ac
+		tincidunt velit.
+	      </p>
+	    </div>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>5.86</h3>
+	      <p>
+		Lorem ipsum
+		dolor sit amet,
+		consectetur
+		adipiscing
+		elit. Vestibulum
+		ac tincidunt
+		velit.
+	      </p>
+	    </div>
+	    <div class="Item">
+	      <h2>Item</h2>
+	      <h3>8.54</h3>
+	      <p>
+		Lorem ipsum
+		dolor sit
+		amet,
+		consectetur
+		adipiscing
+		elit. Vestibulum
+		ac tincidunt
+		velit.
+	      </p>
+	    </div>
+	  </div>
+	</div>  
       </div>
 
       <div class="clear">
       </div>
       
       <div id="footer">
-		<div class="nav" id="bottom_nav">
-
-			  <div id="social-media">
-				<img src="../images/pinterest-logo.png" class="socialMediaIcon"
-				     alt="Link to Pintrest">
-				<img src="../images/square-facebook-128.png"
-				     class="socialMediaIcon"
-				     alt="Link to Facebook">
-			  </div>
-			  <div id="center-footer">
-				<a href="../index.html"><img src="../images/carbVert01.svg" id="vlogo" alt="carboidrati italiano">
-				</a>
-				<ul>
-					<li><a href="../index.html">Home</a></li>
-					<li><a class="active" href="foodMenu.html">Menu Items</a></li>
-					<li><a href="location.html">Location</a></li>
-					<li><a href="#">Awards</a></li>
-					<li><a href="#">Reservations</a></li>
-					<li><a href="#">Delivery</a></li>
-				</ul>
-		
-			  </div>
-		</div>
-	
-		<div id="legal-footer">
-		  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		</div>
-
+	<div class="nav" id="bottom_nav">
+	  <div id="social-media">
+	    <img src="../images/pinterest-logo.png"
+	         class="socialMediaIcon"
+		 alt="Link to Pintrest">
+	    <img src="../images/square-facebook-128.png"
+		 class="socialMediaIcon"
+		 alt="Link to Facebook">
+	    <img src="../images/GooglePlusIcon.png"
+		 class="socialMediaIcon"
+		 alt="Link to Google Plus">
+	  </div>
+	  <div id="center-footer">
+	    <a href="../index.html"><img src="../images/carbVert01.svg"
+					 id="vlogo" alt="carboidrati italiano">
+	    </a>
+	    <ul>
+	      <li><a href="../index.html">Home</a></li>
+	      <li><a class="active"
+		     href="foodMenu.html">Menu
+		  Items</a></li>
+	      <li><a href="location.html">Location</a></li>
+	      <li><a href="#">Awards</a></li>
+	      <li><a href="#">Reservations</a></li>
+	      <li><a href="#">Delivery</a></li>
+	    </ul>
+	    
+	  </div>
+	</div>
+	<div id="social-media">
+	  <img src="../images/pinterest_logo.png"
+	       class="socialMediaIcon"
+	       alt="Link to Pintrest">
+	  <img src="../images/facebook_logo.png"
+	       class="socialMediaIcon"
+	       alt="Link to Facebook">
+	  <img src="../images/google_plus_logo.png"
+	       class="socialMediaIcon"
+	       alt="Link to Google Plus">
+	</div>
+	<div id="center-footer">
+	  <a href="../index.html"><img src="../images/carbVert01.svg"
+				       id="vlogo" alt="carboidrati italiano">
+	  </a>
+	  <ul>
+	    <li><a href="../index.html">Home</a></li>
+	    <li><a class="active"
+		   href="foodMenu.html">Menu Items</a></li>
+	    <li><a href="location.html">Location</a></li>
+	    <li><a href="#">Awards</a></li>
+	    <li><a href="#">Reservations</a></li>
+	    <li><a href="#">Delivery</a></li>
+	  </ul>
+	  
+	</div>
       </div>
       
+      <div id="legal-footer">
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </div>
+
     </div>
 </div>
 

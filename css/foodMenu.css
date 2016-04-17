@@ -1,19 +1,60 @@
 /*css for food menu list*/
 div.foodCategory{
-  width: 30%;
+  width: 47%;
   float: left;
-  margin: 1.5%;
-  border-right: solid 2px;
-  border-color: #333; /*Black*/
+  margin: 1.5%
 }
+
+#aboutPage {
+  font-size: 1.25em;
+  background-color: #444;
+  width: 80%;
+  margin: 1.5% auto;
+  padding: 3ex 0px;
+}
+
+#aboutPage p {
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 3ex;
+}
+
+#menu {
+    width: 80%;
+    margin: auto;
+}
+
+#menuNav li {
+  width: 25%;
+  box-sizing: border-box;
+  /* border-right: solid 2px #caa483; /\*Tan*\/ */
+}
+
+#lastElement a {
+    border: none;
+}
+
+#menuNav ul {
+  height: auto;
+  background-color: inherit;
+  width: 50%;
+}
+
+div.Item {
+  border-left: solid 2px;
+  border-color: #444; /*light grey*/
+  margin-left: 9%;
+  padding-left: 1.5%;
+}
+
 div.foodCategory h1, div.foodCategory p{
   color: #caa483; /*Tan*/
 }
 div.foodCategory:last-child{
   border-right: none;
 }
-div.Item h3{
-  float: right;
+div.Item h3{ /* price tag */
   color: #ccc; /*Gray*/
   padding-right: 10px; 
 }
