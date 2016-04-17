@@ -1,8 +1,39 @@
 /*css for food menu list*/
 div.foodCategory{
-  width: 45%;
-  float: left;
-  margin: 1.5%;
+  width: 75%;
+  margin: 1.5% auto;
+}
+
+#aboutPage {
+  font-size: 1.25em;
+  background-color: #444;
+  width: 75%;
+  margin: 1.5% auto;
+  padding: 3ex 0px;
+}
+
+#aboutPage p {
+    margin: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 3ex;
+}
+
+#menuNav li {
+  width: 25%;
+  box-sizing: border-box;
+  /* border-right: solid 2px #caa483; /\*Tan*\/ */
+}
+
+#lastElement a {
+    border: none;
+}
+
+#menuNav ul {
+  text-size: 1em;
+  height: auto;
+  background-color: inherit;
+  max-width: 40%;
 }
 
 div.Item {
