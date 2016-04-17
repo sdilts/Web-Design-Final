@@ -1,8 +1,8 @@
 /*css for food menu list*/
 div.foodCategory{
-  width: 44%;
-  margin: 0 2.5% 1.5% 2.5%;
+  width: 47%;
   float: left;
+  margin: 0 0 1% 2.4%;
 }
 
 #aboutPage {
@@ -22,7 +22,6 @@ div.foodCategory{
 #menuNav li {
   width: 25%;
   box-sizing: border-box;
-  /* border-right: solid 2px #caa483; /\*Tan*\/ */
 }
 
 #lastElement a {
@@ -30,10 +29,9 @@ div.foodCategory{
 }
 
 #menuNav ul {
-  text-size: 1em;
   height: auto;
   background-color: inherit;
-  max-width: 40%;
+  width: 50%;
 }
 
 div.Item {
