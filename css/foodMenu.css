@@ -1,22 +1,22 @@
 /*css for food menu list*/
 div.foodCategory{
-  width: 75%;
-  margin: 1.5% auto;
+  width: 44%;
+  margin: 0 2.5% 1.5% 2.5%;
+  float: left;
 }
 
 #aboutPage {
   font-size: 1.25em;
   background-color: #444;
-  width: 75%;
+  width: 95.5%;
   margin: 1.5% auto;
   padding: 3ex 0px;
 }
 
 #aboutPage p {
     margin: 0;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 3ex;
+    width: 50%;
+    padding: 0 1em 3ex 1em;
 }
 
 #menuNav li {
