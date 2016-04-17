@@ -2,33 +2,26 @@
 div.foodCategory{
   width: 47%;
   float: left;
-  margin: 1.5%
+  margin: 0 0 1% 2.4%;
 }
 
 #aboutPage {
   font-size: 1.25em;
-  background-color: #444;
-  width: 80%;
+  background-color: #333; /*Black*/
+  width: 95.5%;
   margin: 1.5% auto;
   padding: 3ex 0px;
 }
 
 #aboutPage p {
     margin: 0;
-    padding-left: 1em;
-    padding-right: 1em;
-    padding-bottom: 3ex;
-}
-
-#menu {
-    width: 80%;
-    margin: auto;
+    width: 50%;
+    padding: 0 1em 3ex 1em;
 }
 
 #menuNav li {
   width: 25%;
   box-sizing: border-box;
-  /* border-right: solid 2px #caa483; /\*Tan*\/ */
 }
 
 #lastElement a {
