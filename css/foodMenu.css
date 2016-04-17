@@ -1,27 +1,27 @@
-/*css for food menu list*/
-div.foodCategory{
-  width: 47%;
-  float: left;
-  margin: 0 0 1% 2.4%;
-}
-
+/*css for menu item nav*/
 #aboutPage {
   font-size: 1.25em;
-  background-color: #333; /*Black*/
-  width: 95.5%;
+  background-color: #444;
+  width: 80%;
   margin: 1.5% auto;
   padding: 3ex 0px;
 }
 
 #aboutPage p {
-    margin: 0;
-    width: 50%;
-    padding: 0 1em 3ex 1em;
+  margin: 0;
+  width: 50%;
+  padding: 0 1em 3ex 1em;
+}
+
+#menu {
+    width: 80%;
+    margin: auto;
 }
 
 #menuNav li {
   width: 25%;
   box-sizing: border-box;
+  /* border-right: solid 2px #caa483; /\*Tan*\/ */
 }
 
 #lastElement a {
@@ -34,15 +34,23 @@ div.foodCategory{
   width: 50%;
 }
 
+/*css for food menu list*/
+div.foodCategory{
+  width: 37.5%;
+  float: left;
+  margin: 0 -5% 1% 10%;
+}
 div.Item {
   border-left: solid 2px;
   border-color: #444; /*light grey*/
   margin-left: 9%;
   padding-left: 1.5%;
+  width: 95%;
 }
 
 div.foodCategory h1, div.foodCategory p{
   color: #caa483; /*Tan*/
+  
 }
 div.foodCategory:last-child{
   border-right: none;
