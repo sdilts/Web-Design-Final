@@ -1,19 +1,12 @@
-/*css for food menu list*/
-div.foodCategory{
-  width: 47%;
-  float: left;
-  margin: 0 0 1% 2.4%;
-}
-
-#aboutPage {
-  font-size: 1.25em;
+/*css for menu item nav box*/
+#menuNav {
   background-color: #333; /*Black*/
   width: 95.5%;
   margin: 1.5% auto;
   padding: 3ex 0px;
 }
 
-#aboutPage p {
+#menuNav p{
     margin: 0;
     width: 50%;
     padding: 0 1em 3ex 1em;
@@ -24,14 +17,20 @@ div.foodCategory{
   box-sizing: border-box;
 }
 
-#lastElement a {
+#menuNav li:last-child a {
     border: none;
 }
 
 #menuNav ul {
-  height: auto;
-  background-color: inherit;
+  padding: 0;
   width: 50%;
+}
+
+/*css for food menu list*/
+div.foodCategory{
+  width: 47%;
+  float: left;
+  margin: 0 0 1% 2.4%;
 }
 
 div.Item {
