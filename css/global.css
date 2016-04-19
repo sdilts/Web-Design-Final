@@ -6,8 +6,11 @@ body {
 }
 
 /*Defalt text color and style*/
-p, h1, h2, h3, h4{
-	color: #caa483; /*Tan*/
+h1, h2, h3, h4{
+	color: #fd8; /*Yellow Tan*/
+}
+p {
+	color: #ddd;
 }
 h1, h2{
 	font-family: 'Cinzel Decorative',Times , cursive;

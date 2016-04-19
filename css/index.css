@@ -3,7 +3,7 @@ div#featured {
   background-color: #333; /*Black*/
   height: 275px;
   width: 94.5%;
-  margin: 20px auto 10px auto;
+  margin: 20px auto 0 auto;
   padding: 10px;
 }
 div#featured img{
@@ -20,8 +20,8 @@ div#featured div{
 
 /*css for event boxes*/
 div.event{
-  width: 45.8%; /*Centered with margin*/
-  margin: 1% 2%;
+  width: 46.8%; /*Centered with margin*/
+  margin: 2% 2%;
   padding: 0;
   display: inline-block;
 }
@@ -32,4 +32,7 @@ div.event p, div.event h2{
   margin: 0;
   padding: 10px 5px;
   background-color: #333; /*Black*/
+}
+div#eventLast {
+  margin-left: 0%;
 }

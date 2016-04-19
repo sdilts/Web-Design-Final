@@ -39,18 +39,20 @@ div.Item {
   margin-left: 9%;
   padding-left: 1.5%;
 }
-
-div.foodCategory h1, div.foodCategory p{
-  color: #caa483; /*Tan*/
+div#menuNav h2 {
+  padding: 0 0 0 4%;
+}
+div.foodCategory h1{
+  text-align: center;
+  margin: 0;
 }
 div.foodCategory:last-child{
   border-right: none;
 }
 div.Item h3{ /* price tag */
-  color: #ccc; /*Gray*/
+  color: #caa483; /*Tan*/
   padding-right: 10px; 
 }
 div.Item h2{
-  color: #ccc; /*Gray*/
   padding: 0;
 }

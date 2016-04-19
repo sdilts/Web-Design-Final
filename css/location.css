@@ -27,13 +27,11 @@ div.subImage h2{
   text-align: center;
   border-bottom: solid 2px;
   border-color: #caa483; /*Tan*/
-  color: #caa483; /*Tan*/
 }
 div.subImage p{
   padding: 10px 5px;
   margin: 0 0 15px 0;
   background-color: #333; /*Black*/
-  color: #caa483; /*Tan*/
 }
 div.subImage img{
   width: 100%;
