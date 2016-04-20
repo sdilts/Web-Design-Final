@@ -15,7 +15,7 @@ div#featured img, div#featured div{
   padding: 10px 20px;
 }
 div#featured h2{
-  padding:0 0 0 6%;
+  padding: 0 0 1% 0%;
 }
 div#featured div{
   width: 45.8%;
@@ -30,13 +30,22 @@ div.event{
 }
 div.event img{
   width: 100%;
-    margin:0 0 -6px 0;
+  margin:0 0 -6px 0;
 }
+
 div.event p, div.event h2{
   margin: 0;
-  padding: 10px 5px;
   background-color: #333; /*Black*/
 }
+
+div.event p {
+  padding: 5px 5px;
+}
+
+div.event h2 {
+  padding: 15px 5px 0px 5px;
+}
+
 div#eventLast {
   margin-left: 0%;
 }

@@ -16,7 +16,7 @@ p {
 	line-height: 1.7em;
 }
 h1, h2{
-	font-family: 'Cinzel Decorative',Times , cursive;
+	font-family: 'Cinzel', Times, serif;
 }
 p, h3, h4{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -51,7 +51,7 @@ div#header{
 /*Common to both navs*/
 .nav li a {
 	color:#ccc; /*Gray*/
-	font-family: 'Cinzel Decorative',Times , cursive;
+	font-family: 'Cinzel',Times , cursive;
 	text-decoration:none;
 	transition: all .2s linear;
 	border-right: 3px solid #caa483; /*Tan*/
@@ -72,15 +72,9 @@ div#header{
     padding:5px 10px 5px 5px;
 }
 
-.nav li a.active, .nav li:last-child a.active {
+.nav li a.active, .nav li:last-child a.active ,.nav li a:hover{
 	background-color: #333; /*Black*/
-	color:#caa483; /*Tan*/
-	text-shadow: 2px 1px 20px rgba(250, 250, 250, .50);
-}
-
-.nav li a:hover {
-	background-color:#333; /*Black*/
-	color:#caa483; /*Tan*/
+	color:#fd8; /*Yellow Tan*/
 	text-shadow: 2px 1px 20px rgba(250, 250, 250, .50);
 }
 
@@ -91,9 +85,26 @@ div#header{
 #footer {
     padding: 5px 15px;
     margin:auto;
-    background-color: #ac9582; /*Light Tan*/
+    background-color: #444; /*Light Tan*/
     height: 110px;
 }
+
+#footer li {
+	background-color: #888;
+}
+
+#footer a {
+	color: #000;
+	font-weight: 600;
+	letter-spacing: .05em;
+}
+/*same as header nav: */
+#footer a.active, #footer a:hover {
+	background-color: #333; /*Black*/
+	color:#fd8; /*Yellow Tan*/
+	text-shadow: 2px 1px 20px rgba(250, 250, 250, .50);
+}
+
 
 #footer div {
     position: relative;
@@ -127,6 +138,11 @@ div#header{
     width: 17.5%;
     float: left;
     text-align: right;
+    /* color: white; */
+}
+
+div#legal-footer {
+    color: #888;
 }
 
 #center-footer {
@@ -151,6 +167,12 @@ div#header{
 img#hero{
   width: 100%;
 }
+
+#heroText h2 {
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
 div#heroText{
   background-color: #333; /*Black*/
   width: 25%;

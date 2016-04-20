@@ -5,16 +5,33 @@ div.main h1{
 }
 div#featured{
   margin: auto;
+  margin-top: 34px;
   background-color: #333; /*Black*/
   width: 94%;
-  display: flex;
 }
+div.sidebar{
+  float: left;
+  width: 23%;
+}
+div.sidebar#second {
+  float: right;
+}
+
+div#featured p {
+	margin: auto;
+	padding: 1%;
+	width: 85%;
+}
+div#featured h2 {
+	text-align: center;
+}
+
 div#featured img{
-  display: block;
-  padding: 0 3.5%; /*Temporary the image is not centered*/
+  padding: 0 3.5%; 
   background-color: #833d46; /*Light Red*/
-  margin: 0 auto;
-  min-height: 420px;
+  margin: 0 auto -6px; /*The -6px removes the extra black space below the image*/
+  width: 45%;
+  /* height: 420px; */
 }
 
 /*css for supporting images*/
@@ -28,7 +45,8 @@ div.subImage h2{
   text-align: center;
   border-bottom: solid 2px;
   width: 100%;
-  margin: 0.9% 0;
+  margin:  0.9% 0;
+  margin: 3% 0 .9% 0;
   border-color: #caa483; /*Tan*/
 }
 div.subImage p{

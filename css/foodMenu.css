@@ -1,9 +1,14 @@
 /*css for menu item nav box*/
+
 #menuNav {
   background-color: #333; /*Black*/
   width: 95.5%;
   margin: 1.5% auto;
   padding: 3ex 0px;
+}
+
+div#menuNav h2 {
+  padding: 0 0 0 1em;
 }
 
 #menuNav p{
@@ -26,22 +31,30 @@
   width: 50%;
 }
 
+#menu {
+	width: 95.5%;
+	padding: 0px;
+	margin: auto;
+}
+
+#menu h1, #menu h2 {
+	color: #ec7; /*Tan*/
+}
+
 /*css for food menu list*/
 div.foodCategory{
   width: 47%;
   float: left;
-  margin: 0 0 1% 2.4%;
+  margin: 0 2.4% 1% 0;
 }
 
 div.Item {
   border-left: solid 2px;
   border-color: #444; /*light grey*/
-  margin-left: 9%;
+  margin-left: 0%;
   padding-left: 1.5%;
 }
-div#menuNav h2 {
-  padding: 0 0 0 4%;
-}
+
 div.foodCategory h1{
   text-align: center;
   margin: 0;
