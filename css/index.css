@@ -14,19 +14,23 @@ div#featured img, div#featured div{
   display: inline-block; 
   padding: 10px 20px;
 }
+div#featured h2{
+  padding:0 0 0 6%;
+}
 div#featured div{
   width: 45.8%;
 }
 
 /*css for event boxes*/
 div.event{
-  width: 46.8%; /*Centered with margin*/
+  width: 46.8%;
   margin: 2% 2%;
   padding: 0;
   display: inline-block;
 }
 div.event img{
   width: 100%;
+    margin:0 0 -6px 0;
 }
 div.event p, div.event h2{
   margin: 0;

@@ -8,9 +8,12 @@ body {
 /*Defalt text color and style*/
 h1, h2, h3, h4{
 	color: #fd8; /*Yellow Tan*/
+	margin-bottom: 0;
 }
 p {
 	color: #ddd;
+	margin: 0;
+	line-height: 1.7em;
 }
 h1, h2{
 	font-family: 'Cinzel Decorative',Times , cursive;
