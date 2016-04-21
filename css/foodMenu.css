@@ -1,5 +1,4 @@
 /*css for menu item nav box*/
-
 #menuNav {
   background-color: #333; /*Black*/
   width: 95.5%;
@@ -37,8 +36,11 @@ div#menuNav h2 {
 	margin: auto;
 }
 
-#menu h1, #menu h2 {
-	color: #ec7; /*Tan*/
+#menu h2 {
+	color: #ec7;
+}
+#menu h1{
+  color: #eee;
 }
 
 /*css for food menu list*/

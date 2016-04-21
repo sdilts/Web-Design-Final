@@ -13,6 +13,13 @@ div.sidebar{
   float: left;
   width: 23%;
 }
+div#featured ul{
+  color: #ddd;
+	margin: 0;
+	line-height: 1.7em;
+  list-style-type: none;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 div.sidebar#second {
   float: right;
 }
