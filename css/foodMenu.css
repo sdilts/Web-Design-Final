@@ -16,6 +16,12 @@ div#menuNav h2 {
     padding: 0 1em 3ex 1em;
 }
 
+#menuNav img {
+  float: right;
+  margin: -5px 20px;
+  height: 240px;
+}
+
 #menuNav li {
   width: 25%;
   box-sizing: border-box;
