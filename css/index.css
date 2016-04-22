@@ -6,19 +6,19 @@ div#featured {
   margin: 20px auto 0 auto;
   padding: 10px;
 }
-div#featured img{
-  float:right;
-  height: 250px; /*needed for div background color*/
-}
 div#featured img, div#featured div{
   display: inline-block; 
   padding: 10px 20px;
 }
-div#featured h2{
-  padding: 0 0 1% 0%;
+div#featured img{
+  float:right;
+  height: 250px; /*needed for div background color*/
 }
 div#featured div{
   width: 45.8%;
+}
+div#featured h2{
+  padding: 0 0 1% 0%;
 }
 
 /*css for event boxes*/
@@ -28,24 +28,21 @@ div.event{
   padding: 0;
   display: inline-block;
 }
+div#eventLast {
+  margin-left: 0%;
+}
 div.event img{
   width: 100%;
   margin:0 0 -6px 0;
 }
-
-div.event p, div.event h2{
+div.event h2, div.event p{
   margin: 0;
   background-color: #333; /*Black*/
 }
-
+div.event h2 {
+  padding: 15px 5px 0px 5px;
+}
 div.event p {
   padding: 5px 5px;
 }
 
-div.event h2 {
-  padding: 15px 5px 0px 5px;
-}
-
-div#eventLast {
-  margin-left: 0%;
-}
