@@ -20,6 +20,12 @@ div#featured ul{
   list-style-type: none;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
+.sidebar h3 {
+    text-align: center;
+    font-size: 1em;
+}
+
 div.sidebar#second {
   float: right;
 }
