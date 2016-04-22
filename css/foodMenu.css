@@ -1,79 +1,69 @@
-/*css for menu item nav box*/
+/*css for menu items nav box*/
 #menuNav {
-  background-color: #333; /*Black*/
-  width: 95.5%;
-  margin: 1.5% auto;
-  padding: 3ex 0px;
+	background-color: #333; /*Black*/
+	width: 95.5%;
+	margin: 1.5% auto;
+	padding: 3ex 0px;
 }
-
-div#menuNav h2 {
-  padding: 0 0 0 1em;
+#menuNav h2 {
+	padding: 0 0 0 1em;
 }
-
 #menuNav p{
-    margin: 0;
-    width: 50%;
-    padding: 0 1em 3ex 1em;
+	margin: 0;
+	width: 50%;
+	padding: 0 1em 3ex 1em;
 }
-
 #menuNav img {
-  float: right;
-  margin: -5px 20px;
-  height: 240px;
+	float: right;
+	margin: -5px 20px;
+	height: 240px;
 }
-
-#menuNav li {
-  width: 25%;
-  box-sizing: border-box;
-}
-
-#menuNav li:last-child a {
-    border: none;
-}
-
 #menuNav ul {
-  padding: 0;
-  width: 50%;
+	padding: 0;
+	width: 50%;
 }
-
+#menuNav li {
+	width: 25%;
+	box-sizing: border-box;
+}
+#menuNav li:last-child a {
+	border: none;
+}
 #menu {
 	width: 95.5%;
 	padding: 0px;
-    margin: 0 auto 50% auto;
+	margin: 0 auto 50% auto;
 }
-
 #menu h2 {
 	color: #ec7;
 }
 #menu h1{
-  color: #eee;
+	color: #eee;
 }
 
 /*css for food menu list*/
 div.foodCategory{
-  width: 47%;
-  float: left;
-  margin: 0 2.4% 2% 0;
+	width: 47%;
+	float: left;
+	margin: 0 2.4% 2% 0;
 }
-
 div.Item {
-  border-left: solid 2px;
-  border-color: #444; /*light grey*/
-  margin-left: 0%;
-  padding-left: 1.5%;
+	border-left: solid 2px;
+	border-color: #444; /*light grey*/
+	margin-left: 0%;
+	padding-left: 1.5%;
 }
-
 div.foodCategory h1{
-  text-align: center;
-  margin: 0;
+	text-align: center;
+	margin: 0;
 }
 div.foodCategory:last-child{
-  border-right: none;
+	border-right: none;
 }
 div.Item h3{ /* price tag */
-  color: #caa483; /*Tan*/
-  padding-right: 10px; 
+	color: #caa483; /*Tan*/
+	padding-right: 10px; 
 }
 div.Item h2{
-  padding: 0;
+	padding: 0;
 }

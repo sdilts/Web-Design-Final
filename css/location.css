@@ -1,35 +1,32 @@
 /*css for featured location image bar*/
 div.main h1{
-  text-align: center;
-  margin: 0;
+	text-align: center;
+	margin: 0;
 }
 div#featured{
-  margin: auto;
-  margin-top: 34px;
-  background-color: #333; /*Black*/
-  width: 94%;
+	margin: auto;
+	margin-top: 34px;
+	background-color: #333; /*Black*/
+	width: 94%;
 }
 div.sidebar{
-  float: left;
-  width: 23%;
+	float: left;
+	width: 23%;
 }
 div#featured ul{
-  color: #ddd;
+	color: #ddd;
 	margin: 0;
 	line-height: 1.7em;
-  list-style-type: none;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	list-style-type: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-
 .sidebar h3 {
-    text-align: center;
-    font-size: 1em;
+	text-align: center;
+	font-size: 1em;
 }
-
 div.sidebar#second {
-  float: right;
+	float: right;
 }
-
 div#featured p {
 	margin: auto;
 	padding: 1%;
@@ -38,40 +35,38 @@ div#featured p {
 div#featured h2 {
 	text-align: center;
 }
-
 div#featured img{
-  padding: 0 3.5%; 
-  background-color: #833d46; /*Light Red*/
-  margin: 0 auto -6px; /*The -6px removes the extra black space below the image*/
-  width: 45%;
-  /* height: 420px; */
+	padding: 0 3.5%; 
+	background-color: #833d46; /*Light Red*/
+	margin: 0 auto -6px; /*The -6px removes the extra black space below the image*/
+	width: 45%;
 }
 
 /*css for supporting images*/
 div.subImage{
-  width: 45.3%;
-  margin: 0 3% 3%;
-  padding: 0;
-  display: inline-block;
+	width: 45.3%;
+	margin: 0 3% 3%;
+	padding: 0;
+	display: inline-block;
 }
 div.subImage h2{
-  text-align: center;
-  border-bottom: solid 2px;
-  width: 100%;
-  margin:  0.9% 0;
-  margin: 3% 0 .9% 0;
-  border-color: #caa483; /*Tan*/
+	text-align: center;
+	border-bottom: solid 2px;
+	width: 100%;
+	margin:  0.9% 0;
+	margin: 3% 0 .9% 0;
+	border-color: #caa483; /*Tan*/
 }
 div.subImage p{
-  margin: 0;
-  padding: 10px 5px;
-  background-color: #333; /*Black*/
+	margin: 0;
+	padding: 10px 5px;
+	background-color: #333; /*Black*/
 }
 div.subImage img{
-  width: 100%;
-  padding: 0;
-  margin:0 0 -6px 0;
+	width: 100%;
+	padding: 0;
+	margin:0 0 -6px 0;
 }
 div#lastSubImage {
-  margin-left: 0%;
+	margin-left: 0%;
 }
