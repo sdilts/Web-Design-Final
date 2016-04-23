@@ -1,13 +1,9 @@
 /*css for featured location image bar*/
-div.main h1{
-	text-align: center;
-	margin: 0;
-}
 div#featured{
 	margin: auto;
 	margin-top: 34px;
 	background-color: #333; /*Black*/
-	width: 94%;
+	width: 95.6%;
 }
 div.sidebar{
 	float: left;
@@ -16,6 +12,7 @@ div.sidebar{
 div#featured ul{
 	color: #ddd;
 	margin: 0;
+	padding: 0;
 	line-height: 1.7em;
 	list-style-type: none;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -36,16 +33,16 @@ div#featured h2 {
 	text-align: center;
 }
 div#featured img{
-	padding: 0 3.5%; 
+	padding: 0 2.6%; 
 	background-color: #833d46; /*Light Red*/
-	margin: 0 auto -6px; /*The -6px removes the extra black space below the image*/
+	margin: 0 1% -6px 1%; /*The -6px removes the extra black space below the image*/
 	width: 45%;
 }
 
 /*css for supporting images*/
 div.subImage{
-	width: 45.3%;
-	margin: 0 3% 3%;
+	width: 46.5%;
+	margin: 0 2.2% 2.2%;
 	padding: 0;
 	display: inline-block;
 }
