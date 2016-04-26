@@ -7,7 +7,7 @@ div#featured{
 }
 div.sidebar{
 	float: left;
-	width: 23%;
+	width: 23.5%;
 }
 div#featured ul{
 	color: #ddd;
@@ -19,7 +19,6 @@ div#featured ul{
 }
 div.sidebar#second {
 	float: right;
-	width: 24%;
 }
 div#featured p {
 	margin: auto;
@@ -27,14 +26,14 @@ div#featured p {
 	width: 85%;
 }
 div#featured h2 {
-  padding: 0 20px;
+  padding: 0 8%;
 }
 div#second h2{
 	padding: 0 0 10px 0;
 }
 .sidebar h3 {
 	font-size: 1em;
-	padding: 0 0 0 20px;
+	padding: 0 0 0 8%;
 }
 div#featured img{
 	padding: 0 2.6%; 
