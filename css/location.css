@@ -17,12 +17,9 @@ div#featured ul{
 	list-style-type: none;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-.sidebar h3 {
-	text-align: center;
-	font-size: 1em;
-}
 div.sidebar#second {
 	float: right;
+	width: 24%;
 }
 div#featured p {
 	margin: auto;
@@ -30,7 +27,14 @@ div#featured p {
 	width: 85%;
 }
 div#featured h2 {
-	text-align: center;
+  padding: 0 20px;
+}
+div#second h2{
+	padding: 0 0 10px 0;
+}
+.sidebar h3 {
+	font-size: 1em;
+	padding: 0 0 0 20px;
 }
 div#featured img{
 	padding: 0 2.6%; 
@@ -56,7 +60,7 @@ div.subImage h2{
 }
 div.subImage p{
 	margin: 0;
-	padding: 10px 5px;
+	padding: 10px 20px;
 	background-color: #333; /*Black*/
 }
 div.subImage img{

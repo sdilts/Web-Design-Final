@@ -40,9 +40,9 @@ div.event h2, div.event p{
   background-color: #333; /*Black*/
 }
 div.event h2 {
-  padding: 15px 5px 0px 5px;
+  padding: 15px 5px 0px 20px;
 }
 div.event p {
-  padding: 5px 5px;
+  padding: 5px 20px;
 }
 
